@@ -1,0 +1,100 @@
+#last_logo{
+  margin-top: 5vh;
+}
+#footer{
+  margin-top: 2vh;
+  color: white;
+}
+.background-one{
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.style-jumbotron-desktop{
+  background-color: #F7B617;
+  color: white;
+  margin-top: 15vh;
+}
+.background-two{
+  background-color: #F7B617;
+  height: 80vh;
+}
+.style-border-row{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  margin-top: 10vh;
+}
+.paragraph{
+  color: white;
+  margin-top: 1vh;
+}
+.background-three{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.style-jumbotron-desktop-two{
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  height: 80vh;
+}
+.form{
+  margin-top: 20vh;
+  float: left;
+}
+.background-four{
+  background-color: #2B2B2B;
+  height: 80vh;
+}
+.border-top-bottom{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 5vh;
+  height: 60vh;
+}
+.color-icon{
+  color: white;
+  margin-top: 55vh;
+}
+.last-ul-style{
+  color: white;
+  margin-top: 20vh;
+}
+.img-margintop-apple{
+  margin-top: 30vh;
+}
+.images-margintop-google{
+  margin-top: 5vh;
+}
+.style-jumbotron-mobile{
+  background-color: #F7B617;
+  color: white;
+}
+.cellphone{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > img{
+  height: 40vh;
+  margin-left: 10vh;
+}
+body > section > div:nth-child(2) > div > div > div > div.media-body.paragraph{
+  padding: 8%;
+  font-size: 1.5em;
+  line-height: 100%;
+}
+body > section > div:nth-child(4) > div.col-md-5.col-md-push-6 > img{
+  margin-bottom: 100vh;
+}
+body > section > div:nth-child(4) > div.col-xs-12.col-sm-12.col-md-5.col-md-pull-5{
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
