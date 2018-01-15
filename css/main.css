@@ -1,200 +1,25 @@
-/* logo del footer */
-#last_logo{
-  margin-top: 5vh;
-}
-/* logo del footer mobile */
-#last_logo_mobile{
-  margin-top: 5vh;
-  margin-left: 3vh;
-}
-/* copyright del footer */
-#footer{
-  margin-top: 2vh;
-  color: white;
-}
-/* copyright del footer vista mobile */
-#footer_mobile{
-  margin-top: 3vh;
-  margin-left: 2vh;
-  color: white;
-}
+/* ESTILOS DESKTOP */
 
-/* fondo de la primer seccion foto del taxi */
-.background-one{
-  background-image: url(../assets/images/taxi.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 120vh;
-}
-/* estilo del primer jombotron */
-.style-jumbotron-desktop{
-  background-color: #F7B617;
-  color: white;
-  margin-top: 15vh;
-  height: 70vh;
-}
+/* ESTILOS GENERALES DE DESKTOP */
 /* estilo de la segunda seccion y cuarta seccion cambiando el color de fondo y altura */
 .background-two{
   background-color: #F7B617;
   height: 80vh;
-}
-/* bordes de la la segunda seccion, encuadra al media object */
-.style-border-row{
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-  margin-top: 10vh;
 }
 /* estilo de los parrafos  */
 .paragraph{
   color: white;
   margin-top: 1vh;
 }
-/* estilo del fondo de la tercer seccion foto con un conducto */
-.background-three{
-  background-image: url(../assets/images/conduce.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
+
+/* ESTILOS NAVBAR */
+/* tamaño de letra de del navbar */
+#bs-example-navbar-collapse-1{
+  font-size: 1.5em;
+  padding: 0% 4%;
 }
-/* estilo del segundo jumbotron de la tercer seccion */
-.style-jumbotron-desktop-two{
-  background-color: rgba(8,17,15,0.9);
-  opacity: 0.9;
-  color: white;
-  height: 80vh;
-  float: right;
-}
-/* estilo del color de fondo y altura la quinta seccion que seria el footer */
-.background-four{
-  background-color: #2B2B2B;
-  height: 80vh;
-}
-/* lineas del borde del footer */
-.border-top-bottom{
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  margin-top: 5vh;
-  height: 60vh;
-}
-/* color y estilo de los iconos de redes del footer */
-.color-icon{
-  color: white;
-  margin-top: 55vh;
-}
-/* estilo de los iconos del footer vista mobile */
-.color-icon-mobile{
-  color: white;
-  float: right;
-  margin-right: 2vh;
-}
-/* estilo de las listas del footer */
-.last-ul-style{
-  color: white;
-  margin-top: 20vh;
-}
-/* margen de arriba del logo apple del footer */
-.img-margintop-apple{
-  margin-top: 30vh;
-}
-/* margen de arriba del logo google del footer */
-.images-margintop-google{
-  margin-top: 5vh;
-}
-/* margen de arriba del jubotron de la tercer seccion pa centrar el texto */
-.margin-top-jumbotron{
-  margin-top: 10vh;
-}
-/* estilos mobile */
-/* estilo de la imagen del celular de la segunda seccion para mobile*/
-.cellphone{
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  padding: 5%;
-}
-/* tamaño de letra de la segunda seccion en el media object */
-.size-font-three-section{
-  font-size: 2em !important;
-}
-/* color del boton del segundo jumbotron de la tercer seccion */
-.color-boton{
-  background-color: #F7B617;
-  border: none;
-  color: white;
-}
-/* estilo del texto de la tercer seccion para mobile */
-.mobile-section-three{
-  text-align: center;
-  font-size: 1em;
-  margin-left: 3vh;
-}
-/* margen de arriba para centrar texto en la tercer seccion para mobile */
-.margin-top-jumbotron-three{
-  margin-top: 10vh;
-}
-/* margen a la izquierda para centrar boton en la tercer seccion para mobile */
-.mobile-section-three-boton{
-  margin-left: 7vh;
-}
-/* estilo del formulario de la cuarta seccion para desktop */
-.form{
-  margin-top: 10vh;
-  color: white;
-}
-/* margen a la izquierda para centrar el boton del formulario */
-.button-map{
-  margin-left: 20vh;
-}
-/* para centrar la imagen del mapa */
-.map{
-  margin-left: 25vh;
-  margin-top: 10vh;
-  border: 1px solid white;
-  padding: 2%;
-}
-/* estilos mobile del formulario cuarta seccion */
-.mobile-section-four{
-  margin-left: 10vh;
-}
-/* estilos mobile del formulario cuarta seccion */
-.mobile-section-boton-four{
-  margin-left: 15vh;
-}
-/* estilos mobile del formulario cuarta seccion */
-.size-map{
-  border: 1px solid white;
-  margin-left: 15vh !important;
-  margin-top: 5vh !important;
-  margin: 0 auto;
-  padding: 3%;
-  height: 30vh;
-  width: 50%;
-}
-/* estilo de la imagen del celular del media object en la segunda seccion */
-body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > img{
-  height: 50vh;
-  margin-left: 10vh;
-  padding: 5%;
-}
-/* estilo al parrafo de la segunda seccion en el media object para centrar */
-body > section > div:nth-child(2) > div > div > div > div.media-body.paragraph.hidden-xs.hidden-sm{
-  padding: 8%;
-  font-size: 1.8em;
-  line-height: 100%;
-}
-/* estilos de los formularios de la cuarta seccion */
-#exampleInputEmail1{
-  border: 3px solid white;
-  color: white;
-  background-color: #F7B617;
-}
-/* estilo de la letra del boton de la cuarta seccion */
-body > section > div:nth-child(4) > div > div > form > button{
-  font-weight: bold;
-}
+
+/* ESTILOS DE LA PRIMER SECCION DESKTOP*/
 /* estilo letra primer jumbotron primer titulo disfruta del tiempo */
 body > section > div.row.background-one > div > h2:nth-child(1){
   font-size: 2em;
@@ -203,11 +28,6 @@ body > section > div.row.background-one > div > h2:nth-child(1){
 /* primer jumbotron segundo titulo eres dueño de tu tiempo */
 body > section > div.row.background-one > div > h2:nth-child(2){
   font-size: 2em;
-}
-/* tamaño de letra de del navbar */
-#bs-example-navbar-collapse-1{
-  font-size: 1.5em;
-  padding: 0% 4%;
 }
 /*  primer jumbotron estilo de viaja con  */
 body > section > div.row.background-one > div > h2:nth-child(3){
@@ -230,6 +50,165 @@ body > section > div.row.background-one > div > h2:nth-child(4) > p:nth-child(3)
   font-weight: bold;
   font-size: 1em;
 }
+/* fondo de la primer seccion foto del taxi */
+.background-one{
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+/* estilo del primer jombotron */
+.style-jumbotron-desktop{
+  background-color: #F7B617;
+  color: white;
+  margin-top: 15vh;
+  height: 70vh;
+}
+
+/* ESTILOS DE LA SEGUNDA SECCION DESKTOP */
+/* bordes de la la segunda seccion, encuadra al media object */
+.style-border-row{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  margin-top: 10vh;
+}
+/* tamaño de letra de la segunda seccion en el media object */
+.size-font-three-section{
+  font-size: 2em !important;
+}
+/* estilo de la imagen del celular del media object en la segunda seccion */
+body > section > div:nth-child(3) > div > div > div > div.media-left.media-middle > img.media-object.hidden-xs.hidden-sm{
+  height: 50vh;
+  margin-left: 10vh;
+  padding: 6%;
+}
+/* estilo al parrafo de la segunda seccion en el media object para centrar */
+body > section > div:nth-child(3) > div > div > div > div.media-body.paragraph.hidden-xs.hidden-sm{
+  padding: 7%;
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+/* ESTILOS DE LA TERCER SECCION DESKTOP*/
+/* estilo del fondo de la tercer seccion foto con un conducto */
+.background-three{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+/* estilo del segundo jumbotron de la tercer seccion */
+.style-jumbotron-desktop-two{
+  background-color: rgba(8,17,15,0.9);
+  opacity: 0.9;
+  color: white;
+  height: 80vh;
+  float: right;
+}
+/* margen de arriba del jubotron de la tercer seccion pa centrar el texto */
+.margin-top-jumbotron{
+  margin-top: 10vh;
+}
+/* color del boton del segundo jumbotron de la tercer seccion */
+.color-boton{
+  background-color: #F7B617;
+  border: none;
+  color: white;
+}
+
+/* ESTILOS DE LA CUARTA SECCION  DESKTOP*/
+/* estilo de la letra del boton de la cuarta seccion */
+body > section > div:nth-child(4) > div > div > form > button{
+  font-weight: bold;
+}
+/* estilos de los formularios de la cuarta seccion */
+#exampleInputEmail1{
+  border: 3px solid white;
+  color: white;
+  background-color: #F7B617;
+}
+/* margen a la izquierda para centrar el boton del formulario */
+.button-map{
+  margin-left: 20vh;
+}
+/* estilo del formulario de la cuarta seccion para desktop */
+.form{
+  margin-top: 10vh;
+  color: white;
+}
+/* para centrar la imagen del mapa */
+.map{
+  margin-left: 25vh;
+  margin-top: 10vh;
+  border: 1px solid white;
+  padding: 2%;
+}
+
+/* ESTILOS DE LA QUINTA SECCION DESKTOP*/
+/* copyright del footer */
+#footer{
+  margin-top: 2vh;
+  color: white;
+}
+/* copyright del footer vista mobile */
+#footer_mobile{
+  margin-top: 3vh;
+  margin-left: 2vh;
+  color: white;
+}
+/* logo del footer */
+#last_logo{
+  margin-top: 5vh;
+}
+/* logo del footer mobile */
+#last_logo_mobile{
+  margin-top: 5vh;
+  margin-left: 3vh;
+}
+/* estilo del color de fondo y altura la quinta seccion que seria el footer */
+.background-four{
+  background-color: #2B2B2B;
+  height: 80vh;
+}
+/* lineas del borde del footer */
+.border-top-bottom{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 5vh;
+  height: 60vh;
+}
+/* color y estilo de los iconos de redes del footer */
+.color-icon{
+  color: white;
+  margin-top: 55vh;
+}
+/* margen de arriba del logo google del footer */
+.images-margintop-google{
+  margin-top: 5vh;
+}
+/* estilo de las listas del footer */
+.last-ul-style{
+  color: white;
+  margin-top: 20vh;
+}
+/* margen de arriba del logo apple del footer */
+.img-margintop-apple{
+  margin-top: 30vh;
+}
+
+/* VISTA MOBILE */
+
+/* Estilos generales */
+/* espacio entre la tercer seccion y la cuarta seccion */
+body > section > div.row.background-two.hidden-md.hidden-lg > div > div{
+  margin-top: 1vh;
+  font-size: 1em;
+}
+
+/* PRIMER SECCION VISTA MOBILE */
 /* estilo boton del primer jumbotron vista mobile */
 body > section > div.row.background-one > div > p > a{
   font-weight: bold;
@@ -241,69 +220,97 @@ body > section > div.row.background-one > div > h2.hidden-md.hidden-lg{
   margin-top: 15vh;
   margin-left: 3vh;
 }
-/*  */
-body > section > div:nth-child(2) > div > div{
+
+/* SEGUNDA SECCION VISTA MOBILE */
+/* estilo de la imagen del celular de la segunda seccion para mobile*/
+.cellphone{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+/* body > section > div:nth-child(2) > div > div{
   height: 60vh;
   border: 1px solid white;
-}
+} */
 /* estilos de la segunda seccion para mobile
  body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > img.media-object.hidden-md.hidden-lg.cellphone{
   height: 40vh;
   margin: 0 auto;
   margin-left: 8vh
 }
-
 body > section > div:nth-child(2){
   padding: 5%;
 }
-
 body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > h2{
   text-align: center;
   margin-left: 6vh;
   font-weight: bold;
 }
-
 body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > p{
   text-align: center;
   margin-left: 6vh;
   font-size: 1.3em;
 } */
 
-body > section > div.row.background-two.hidden-md.hidden-lg > div > div{
-  margin-top: 1vh;
+/* TERCERA SECCION VISTA MOBILE */
+/* estilo del texto de la tercer seccion para mobile */
+.mobile-section-three{
+  text-align: center;
   font-size: 1em;
+  margin-left: 3vh;
 }
-body > section > div.row.background-four.hidden-md.hidden-lg > div.row.col-md-push-1.col-md-pull-1.col-md-10.border-top-bottom > div.row.col-md-2 >{
-  margin-top: 2vh;
+/* margen de arriba para centrar texto en la tercer seccion para mobile */
+.margin-top-jumbotron-three{
+  margin-top: 10vh;
 }
-/* primer modal de inicio de sesion la imagen usario */
-.user-img{
-  margin-left: 8vh;
+/* margen a la izquierda para centrar boton en la tercer seccion para mobile */
+.mobile-section-three-boton{
+  margin-left: 7vh;
+}
+/* CUARTA SECCION VISTA MOBILE */
+/* estilos mobile del formulario cuarta seccion */
+.mobile-section-four{
+  margin-left: 10vh;
+}
+/* estilos mobile del formulario cuarta seccion */
+.mobile-section-boton-four{
+  margin-left: 15vh;
+}
+/* estilos mobile del formulario cuarta seccion */
+.size-map{
+  border: 1px solid white;
+  margin-left: 15vh !important;
+  margin-top: 5vh !important;
+  margin: 0 auto;
+  padding: 3%;
   height: 30vh;
-  width: 30vh;
+  width: 50%;
 }
-/* primer modal de inicio de sesion el boton cruz para cerrar*/
+
+/* QUINTA SECCION VISTA MOBILE */
+/* estilo de los iconos del footer vista mobile */
+.color-icon-mobile{
+  color: white;
+  float: right;
+  margin-right: 2vh;
+}
+
+/* ESTILOS DE LOS MODALES */
+
+/* ESTILOS GENERALES */
+/* boton cruz para cerrar*/
+/* estilo de letra boton modal */
+.btn-send-modal{
+  font-size: 1.5em;
+}
 .size-close{
   margin-right: 3vh;
   margin-top: 1vh;
 }
-/* color fondo del primer modal */
-.color-first-modal{
-  background-color: #14B0A1;
-}
-/* color del primer form del primer modal */
-.color-form{
-  background-color: #F5F5F5;
-  padding: 8%;
-}
-/* tamaño del primer modal */
-.size-first-modal{
-  height: 80vh;
-}
-/* margen para centrar */
-.margin-form{
-  margin-left: 5vh;
-}
+
+/* PRIMER MODAL INICIO DE SESION */
+
 /* color del boton del primer modal */
 #ventana1 > div > div > div.modal-body.color-first-modal > div > form > div:nth-child(3) > div > button{
   background-color: #F0AD4E;
@@ -315,15 +322,32 @@ body > section > div.row.background-four.hidden-md.hidden-lg > div.row.col-md-pu
 #ventana1 > div > div > div.modal-body.color-first-modal > div > form > p{
   margin-top: 3vh;
 }
-/* color de fondo del segundo modal */
-.color-second-modal{
-  background-color: #A9A9A9;
+/* color fondo del primer modal */
+.color-first-modal{
+  background-color: #14B0A1;
 }
-/* estilo primer boton de segundo modal */
-.style-btn-form-two{
-  background-color: black;
-  color: white;
+/* color del primer form del primer modal */
+.color-form{
+  background-color: #F5F5F5;
+  padding: 8%;
 }
+/* margen para centrar */
+.margin-form{
+  margin-left: 5vh;
+}
+/* tamaño del primer modal */
+.size-first-modal{
+  height: 80vh;
+}
+/* primer modal de inicio de sesion la imagen usario */
+.user-img{
+  margin-left: 8vh;
+  height: 25vh;
+  width: 30vh;
+}
+
+/* SEGUNDO MODAL */
+
 /* tamaño del segundo modal */
 #ventana2 > div > div{
   height: 90vh;
@@ -334,24 +358,18 @@ body > section > div.row.background-four.hidden-md.hidden-lg > div.row.col-md-pu
   font-weight: bold;
   text-align: center;
 }
-/* estilo de los parrafos del tercer modal */
-.style-paragraph-modal{
-  font-size: 1em;
-  font-weight: bold;
+/* color de fondo del segundo modal */
+.color-second-modal{
+  background-color: #A9A9A9;
 }
-/* estilo de los parrafos del tercer modal  */
-.special-parragraph{
-  color: gray;
+/* estilo primer boton de segundo modal */
+.style-btn-form-two{
+  background-color: black;
+  color: white;
 }
-/* estilo de los parrafos del tercer modal */
-.special-parragraph-span{
-  color: blue;
-}
-/*  */
-.btn-send-modal{
-  font-size: 1.5em;
 
-}
+/* TERCER MODAL */
+
 /* estilos de los dropdown del tercer modal */
 #dLabel{
   width: 100%;
@@ -363,4 +381,17 @@ body > section > div.row.background-four.hidden-md.hidden-lg > div.row.col-md-pu
 /* estilo del input del tercer modal */
 #ventana3 > div > div > div.modal-body.row > form > div:nth-child(5) > div:nth-child(2) > input{
   width: 100%;
+}
+/* estilo de los parrafos del tercer modal  */
+.special-parragraph{
+  color: gray;
+}
+/* estilo de los parrafos del tercer modal */
+.special-parragraph-span{
+  color: blue;
+}
+/* estilo de los parrafos del tercer modal */
+.style-paragraph-modal{
+  font-size: 1em;
+  font-weight: bold;
 }
