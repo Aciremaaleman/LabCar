@@ -142,9 +142,8 @@ body > section > div:nth-child(4) > div > div > form > button{
 /* para centrar la imagen del mapa */
 .map{
   margin-left: 25vh;
-  margin-top: 10vh;
-  border: 1px solid white;
-  padding: 2%;
+  margin-top: 5vh;
+  padding: 3%;
 }
 
 /* ESTILOS DE LA QUINTA SECCION DESKTOP*/
@@ -274,10 +273,7 @@ body > section > div:nth-child(4) > div > div > p{
 }
 /* estilos mobile del formulario cuarta seccion */
 .size-map{
-  border: 1px solid white;
-  margin-left: 15vh !important;
-  margin-top: 5vh !important;
-  margin: 0 auto;
+  margin-left: 10vh;
   padding: 3%;
   height: 30vh;
   width: 50%;
