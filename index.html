@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="views/modals.html">
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -33,10 +32,52 @@
       </div><!-- /.container-fluid -->
     </nav>
 
+    <!-- PRIMER MODAL INICIO DE SESION -->
+    <div class="modal fade" id="ventana1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content color-first-modal size-first-modal">
+          <div class="modal-header row">
+            <button type="button" class="close size-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img class="modal-title img-responsive col-md-push-3 col-md-pull-3 col-md-6 user-img" src="assets/images/usuario.png" alt="Usuario">
+          </div>
+          <div class="modal-body color-first-modal">
+            <div class="row col-md-8 col-md-push-2 col-md-pull-2">
+              <form class="form-horizontal color-form margin-form" role="form">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                  </label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">
+                    <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                  </label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Log in</button>
+                  </div>
+                </div>
+                <p>Forgot Password <a href="#"> Click here</a></p>
+            </div>
+              </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <p>Forgot Password <a href="#"> Click here</a></p>
+          </div> -->
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- vista desktop-->
     <section class="container-fluid">
-        <div class="row background-one">
+        <div class="row background-one ">
           <div class="jumbotron col-md-5 col-md-push-7 style-jumbotron-desktop">
             <h2 class="hidden-xs hidden-sm"><strong>Disfruta del viaje</strong></h2>
             <h2 class="hidden-xs hidden-sm"><strong>Eres dueño de tu tiempo</strong></h2>
@@ -51,6 +92,59 @@
             <p class="hidden-md hidden-lg"><a class="btn btn-default btn-lg" href="#" role="button">Descarga la App</a></p>
           </div>
         </div>
+
+        <!-- SEGUNDO MODAL REGISTRATE -->
+        <div class="modal fade" id="ventana2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content color-second-modal">
+                <button type="button" class="close size-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button class="btn btn-lg btn-block style-btn-form-two" type="button">Ya tienes una cuenta?</button>
+                <p>O CREA UNA NUEVA CUENTA</p>
+              <div class="modal-body row size-second-modal">
+                <form class="form-horizontal">
+                  <div class="form-group form-inline col-md-5 col-md-push-1 col-md-pull-1">
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+                  </div>
+                  <div class="form-group form-inline col-md-5 col-md-pull-1 col-md-push-1">
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Apellido">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                      <input type="email" class="form-control" id="input2" placeholder="Correo Electronico">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                      <input class="form-control" id="input2" placeholder="Telefono">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                      <input type="password" class="form-control" id="input2" placeholder="Password">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                        <input class="form-control form-horizontal" placeholder="Contraseña">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                        <input class="form-control form-horizontal" placeholder="Ciudad">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                        <input class="form-control form-horizontal" placeholder="Código (opcional)">
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                      <div class="dropdown">
+                        <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <p>Como te enteraste de nosotros <span class="caret"></span></p>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Publicidad</a></li>
+                          <li><a href="#">Amigos o cononocidos</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <button type="button" class="btn btn-info btn-block btn-send-modal">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
 
         <!-- vista desktop de la segunda sección con un media object -->
         <div class="row background-two">
@@ -85,14 +179,116 @@
               <div  class="jumbotron col-md-4 style-jumbotron-desktop-two">
                 <p class="margin-top-jumbotron hidden-xs hidden-sm size-font-three-section"><strong>Conduce cuando quieras!</strong></p>
                 <p class="hidden-xs hidden-sm size-font-three-section">La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
-                <p><a class="btn btn-default btn-lg color-boton hidden-xs hidden-sm" href="#ventana1" data-toggle="modal" role="button">Conviértete en conductor</a></p>
+                <p><a class="btn btn-default btn-lg color-boton hidden-xs hidden-sm" href="#ventana3" data-toggle="modal" role="button">Conviértete en conductor</a></p>
                 <!-- vista mobile tercer seccion -->
                 <p class="margin-top-jumbotron-three mobile-section-three hidden-md hidden-lg"><strong>Conduce cuando quieras!</strong></p>
                 <p class="hidden-md hidden-lg mobile-section-three">La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
-                <p><a class="btn btn-default btn-lg color-boton hidden-md hidden-lg mobile-section-three-boton" href="#ventana3" data-toggle="modal" role="button">Conviértete en conductor</a></p>
+                <p><a class="btn btn-default btn-lg color-boton hidden-md hidden-lg mobile-section-three-boton" role="button">Conviértete en conductor</a></p>
               </div>
             </div>
           </div>
+        </div>
+
+        <!-- TERCER MODAL CONVIERTETE EN CONDUCTOR -->
+        <div class="modal fade" id="ventana3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content color-second-modal">
+              <div class="modal-header">
+                <button type="button" class="close size-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body row">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <div class="dropdown">
+                      <p class="style-paragraph-modal">¿Tienes carro de cuatro puertas?</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        si
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">si</a></li>
+                        <li><a href="#">no</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <div class="dropdown">
+                      <p class="style-paragraph-modal">¿Que marca de carro tienes?</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Elige la marca de carro
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">nissan</a></li>
+                        <li><a href="#">Toyota</a></li>
+                        <li><a href="#">Honda</a></li>
+                        <li><a href="#">Hundai</a></li>
+                        <li><a href="#">Ford</a></li>
+                        <li><a href="#">Chysler</a></li>
+                      </ul>
+                      <p class="special-parragraph">No ves el modelo de tu automovil envia un correo a <span class="special-parragraph-span"> sociosmvd@uber.com </span></p>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <div class="dropdown">
+                      <p class="style-paragraph-modal">Modelo</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Modelo 1
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">modelo 1</a></li>
+                        <li><a href="#">modelo 2</a></li>
+                        <li><a href="#">modelo 3</a></li>
+                        <li><a href="#">modelo 4</a></li>
+                        <li><a href="#">modelo 5</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <div class="dropdown">
+                      <p class="style-paragraph-modal">Año</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Año
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">2000</a></li>
+                        <li><a href="#">2001</a></li>
+                        <li><a href="#">2002</a></li>
+                        <li><a href="#">2003</a></li>
+                        <li><a href="#">2004</a></li>
+                        <li><a href="#">2005</a></li>
+                        <li><a href="#">2006</a></li>
+                        <li><a href="#">2007</a></li>
+                        <li><a href="#">2008</a></li>
+                        <li><a href="#">2009</a></li>
+                        <li><a href="#">2010</a></li>
+                        <li><a href="#">2011</a></li>
+                        <li><a href="#">2012</a></li>
+                        <li><a href="#">2013</a></li>
+                        <li><a href="#">2014</a></li>
+                        <li><a href="#">2015</a></li>
+                        <li><a href="#">2016</a></li>
+                        <li><a href="#">2017</a></li>
+                        <li><a href="#">2018</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <p class="style-paragraph-modal">Numero de matricula</p>
+                    <div class="">
+                      <input placeholder="Numero de matricula">
+                      <p>El numero de matricula ayuda a los clientes a identificar tu vehiculo</p>
+                  </div>
+                  <div class="modal-group col-md-10 col-md-push-1 col-md-pull-1">
+                    <button type="button" class="btn btn-info btn-block btn-send-modal">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
         </div>
 
         <!-- vista desktop de la cuarta seccion-->
@@ -135,7 +331,7 @@
                 <button type="submit" class="btn btn-default btn-lg button-map mobile-section-boton-four">¡Traza la ruta!</button>
               </form>
             </div>
-            <img class="img-responsive border-map col-xs-5 hidden-md hidden-lg size-map" src="assets/images/mapa.gif" alt="">
+            <img class="img-responsive col-xs-5 hidden-md hidden-lg size-map" src="assets/images/mapa.gif" alt="">
           </div>
         </div>
 
