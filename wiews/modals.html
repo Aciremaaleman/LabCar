@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../index.html">
+  </head>
+  <body>
+    <!-- PRIMER MODAL INICIO DE SESION -->
+    <div class="modal fade" id="ventana1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header row">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img class="modal-title img-responsive col-md-push-1 col-sm-push-1 col-md-10 col-sm-10" src="assets/images/usuario.png" alt="Usuario">
+          </div>
+          <div class="modal-body row">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Log in</button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <p>Forgot Password <a href="#"> Click here</a></p>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- SEGUNDO MODAL REGISTRATE -->
+    <div class="modal fade" id="ventana2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button class="btn btn-lg btn-block style-btn-form-two" type="button">Ya tienes una cuenta?</button>
+          </div>
+          <div class="modal-body row">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <label class="sr-only">Appellido</label>
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Apellido">
+              </div>
+            </form>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Correo Electronico">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input placeholder="Telefono">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <input placeholder="Contraseña">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <input placeholder="Ciudad">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <input placeholder="Código (opcional)">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <p>Como te enteraste de nosotros</p>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Publicidad</a></li>
+                        <li><a href="#">Amigos o cononocidos</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-block">Enviar</button>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- TERCER MODAL CONVIERTETE EN CONDUCTOR -->
+    <div class="modal fade" id="ventana3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body row">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="dropdown">
+                  <p>¿Tienes carro de cuatro puertas?</p>
+                  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    si
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">si</a></li>
+                    <li><a href="#">no</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="dropdown">
+                  <p>¿Que marca de carro tienes?</p>
+                  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Elige la marca de carro
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">nissan</a></li>
+                    <li><a href="#">Toyota</a></li>
+                    <li><a href="#">Honda</a></li>
+                    <li><a href="#">Hundai</a></li>
+                    <li><a href="#">Ford</a></li>
+                    <li><a href="#">Chysler</a></li>
+                  </ul>
+                  <p>No ves el modelo de tu automovil envia un correo a <span>sociosmvd@uber.com </span></p>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="dropdown">
+                  <p>Modelo</p>
+                  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Modelo 1
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">modelo 1</a></li>
+                    <li><a href="#">modelo 2</a></li>
+                    <li><a href="#">modelo 3</a></li>
+                    <li><a href="#">modelo 4</a></li>
+                    <li><a href="#">modelo 5</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="dropdown">
+                  <p>Año</p>
+                  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Año
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2018</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="form-group">
+                <p>Numero de matricula</p>
+                <div class="">
+                  <input placeholder="Numero de matricula">
+                  <p>El numero de matricula ayuda a los clientes a identificar tu vehiculo</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info btn-block">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>

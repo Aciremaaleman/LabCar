@@ -193,15 +193,14 @@ body > section > div:nth-child(2) > div > div > div > div.media-body.paragraph.h
 body > section > div:nth-child(4) > div > div > form > button{
   font-weight: bold;
 }
-/* estilo letra primer jumbotron segundo titulo disfruta del tiempo */
+/* estilo letra primer jumbotron primer titulo disfruta del tiempo */
 body > section > div.row.background-one > div > h2:nth-child(1){
-  font-size: 3em;
+  font-size: 2em;
   line-height: 10%;
-  margin-top: 10vh;
 }
 /* primer jumbotron segundo titulo eres dueño de tu tiempo */
 body > section > div.row.background-one > div > h2:nth-child(2){
-  font-size: 3em;
+  font-size: 2em;
 }
 /* tamaño de letra de del navbar */
 #bs-example-navbar-collapse-1{
