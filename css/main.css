@@ -222,36 +222,30 @@ body > section > div.row.background-one > div > h2.hidden-md.hidden-lg{
 }
 
 /* SEGUNDA SECCION VISTA MOBILE */
-/* estilo de la imagen del celular de la segunda seccion para mobile*/
-.cellphone{
+/* centrar la imagen de la segunda seccion */
+body > section > div:nth-child(4) > div > div > img{
+  height: 38vh;
   margin: 0 auto;
+  margin: 6vh;
+}
+/* centrar el texto de la nueva app */
+body > section > div:nth-child(4) > div > div > h2{
   text-align: center;
-  color: white;
-  padding: 5%;
 }
-/* body > section > div:nth-child(2) > div > div{
-  height: 60vh;
-  border: 1px solid white;
-} */
-/* estilos de la segunda seccion para mobile
- body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > img.media-object.hidden-md.hidden-lg.cellphone{
-  height: 40vh;
-  margin: 0 auto;
-  margin-left: 8vh
-}
-body > section > div:nth-child(2){
-  padding: 5%;
-}
-body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > h2{
+/* centrar el segundo texto */
+body > section > div:nth-child(4) > div > div > p{
   text-align: center;
-  margin-left: 6vh;
-  font-weight: bold;
-}
-body > section > div:nth-child(2) > div > div > div > div.media-left.media-middle > p{
-  text-align: center;
-  margin-left: 6vh;
   font-size: 1.3em;
-} */
+}
+/* borde de la segunda seccion */
+.border-fourth-section{
+  border: 1px solid white;
+  color: white;
+}
+/* para centrar la imagen y texto de la segunda seccion  */
+.fourth-section{
+  padding: 8%;
+}
 
 /* TERCERA SECCION VISTA MOBILE */
 /* estilo del texto de la tercer seccion para mobile */
@@ -262,12 +256,13 @@ body > section > div:nth-child(2) > div > div > div > div.media-left.media-middl
 }
 /* margen de arriba para centrar texto en la tercer seccion para mobile */
 .margin-top-jumbotron-three{
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 /* margen a la izquierda para centrar boton en la tercer seccion para mobile */
 .mobile-section-three-boton{
   margin-left: 7vh;
 }
+
 /* CUARTA SECCION VISTA MOBILE */
 /* estilos mobile del formulario cuarta seccion */
 .mobile-section-four{

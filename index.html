@@ -147,17 +147,13 @@
         </div><!-- /.modal-dialog -->
 
         <!-- vista desktop de la segunda sección con un media object -->
-        <div class="row background-two">
+        <div class="row background-two hidden-xs hidden-sm">
           <div class="col-md-9">
             <div class="row  style-border-row">
               <div class="media">
                 <div class="media-left media-middle ">
-                    <!-- vista mobile de la segunda sección con un media object -->
-                    <h2 class="hidden-md hidden-lg cellphone">La nueva app</h2>
                     <!-- vista desktop de la segunda sección con un media object -->
                     <img class="media-object hidden-xs hidden-sm" src="assets/images/iPhone6Plus.png" alt="...">
-                    <!-- vista mobile de la segunda sección con un media object -->
-                    <img class="media-object hidden-md hidden-lg cellphone" src="assets/images/iPhone6Plus.png" alt="...">
                     <!-- vista mobile de la segunda sección con un media object -->
                     <p class="hidden-md hidden-lg cellphone"><strong>Llega a tu destino más rápido</strong></p>
                 </div>
@@ -168,6 +164,20 @@
                   <p class="hidden-xs hidden-sm">Con solo tocar un botón, un auto llega justo a tu ubicación. Subéte y no te preocupes; tu conductor sabe exactamente a donde ir.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- vista mobile de la segunda seccion  -->
+        <div class="row background-two hidden-md hidden-lg">
+          <div class="col-sm-10 fourth-section">
+            <div class="row border-fourth-section col-sm-10">
+              <!-- vista mobile de la segunda sección con un media object -->
+              <h2 class="hidden-md hidden-lg cellphone">La nueva app</h2>
+              <!-- vista mobile de la segunda sección con un media object -->
+              <img class="media-object hidden-md hidden-lg cellphone" src="assets/images/iPhone6Plus.png" alt="...">
+              <!-- vista mobile de la segunda sección con un media object -->
+              <p class="hidden-md hidden-lg cellphone"><strong>Llega a tu destino más rápido</strong></p>
             </div>
           </div>
         </div>
@@ -183,7 +193,7 @@
                 <!-- vista mobile tercer seccion -->
                 <p class="margin-top-jumbotron-three mobile-section-three hidden-md hidden-lg"><strong>Conduce cuando quieras!</strong></p>
                 <p class="hidden-md hidden-lg mobile-section-three">La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
-                <p><a class="btn btn-default btn-lg color-boton hidden-md hidden-lg mobile-section-three-boton" role="button">Conviértete en conductor</a></p>
+                <p><a class="btn btn-default btn-lg color-boton hidden-md hidden-lg mobile-section-three-boton" href="#ventana3" data-toggle="modal" role="button">Conviértete en conductor</a></p>
               </div>
             </div>
           </div>
@@ -196,20 +206,20 @@
               <div class="modal-header">
                 <button type="button" class="close size-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               </div>
-              <div class="modal-body row">
-                <form class="form-horizontal" role="form">
-                  <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
-                    <div class="dropdown">
-                      <p class="style-paragraph-modal">¿Tienes carro de cuatro puertas?</p>
-                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        si
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="dLabel">
-                        <li><a href="#">si</a></li>
-                        <li><a href="#">no</a></li>
-                      </ul>
-                    </div>
+            <div class="modal-body row">
+              <form class="form-horizontal" role="form">
+                <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
+                  <div class="dropdown">
+                    <p class="style-paragraph-modal">¿Tienes carro de cuatro puertas?</p>
+                    <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      si
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                      <li><a href="#">si</a></li>
+                      <li><a href="#">no</a></li>
+                    </ul>
+                  </div>
                   </div>
                   <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
                     <div class="dropdown">
@@ -249,7 +259,7 @@
                     <div class="dropdown">
                       <p class="style-paragraph-modal">Año</p>
                       <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Año
+                        Año
                         <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dLabel">
@@ -277,19 +287,17 @@
                   </div>
                   <div class="form-group col-md-10 col-md-push-1 col-md-pull-1">
                     <p class="style-paragraph-modal">Numero de matricula</p>
-                    <div class="">
                       <input placeholder="Numero de matricula">
                       <p>El numero de matricula ayuda a los clientes a identificar tu vehiculo</p>
                   </div>
-                  <div class="modal-group col-md-10 col-md-push-1 col-md-pull-1">
-                    <button type="button" class="btn btn-info btn-block btn-send-modal">Enviar</button>
-                  </div>
-                </form>
-              </div>
+                <div class="modal-group col-md-10 col-md-push-1 col-md-pull-1">
+                  <button type="button" class="btn btn-info btn-block btn-send-modal">Enviar</button>
+                </div>
+              </form>
+            </div>
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        </div>
 
         <!-- vista desktop de la cuarta seccion-->
         <div class="row background-two hidden-sm hidden-xs">
