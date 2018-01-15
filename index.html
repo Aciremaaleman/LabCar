@@ -26,11 +26,47 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Viaja</a></li>
             <li><a href="#">Conduce</a></li>
-            <li><a href="#">Inicia sesión</a></li>
+            <li><a href="#ventana1" data-toggle="modal">Inicia sesión</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <!-- PRIMER MODAL INICIO DE SESION -->
+    <div class="modal fade" id="ventana1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header row">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img class="modal-title img-responsive col-md-push-1 col-sm-push-1 col-md-10 col-sm-10" src="assets/images/usuario.png" alt="Usuario">
+          </div>
+          <div class="modal-body row">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Log in</button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <p>Forgot Password <a href="#"> Click here</a></p>
+              </div>
+            </form>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <!-- vista desktop-->
     <section class="container-fluid">
         <div class="row background-one">
@@ -38,16 +74,89 @@
             <h2 class="hidden-xs hidden-sm"><strong>Disfruta del viaje</strong></h2>
             <h2 class="hidden-xs hidden-sm"><strong>Eres dueño de tu tiempo</strong></h2>
             <h2 class="hidden-xs hidden-sm">Viaja con<img src="assets/images/logoBlanco.png" class="img-responsive" alt="Responsive image"><h2>
-            <p class="hidden-xs hidden-sm"><a class="btn btn-default btn-lg" href="#" role="button">Registrate</a></p>
+            <p class="hidden-xs hidden-sm"><a class="btn btn-default btn-lg" href="#ventana2" data-toggle="modal" role="button">REGÍSTRATE</a></p>
             <!-- <hr class="hidden-xs hidden-sm"> -->
             <p class="hidden-xs hidden-sm">o bien</p>
             <!-- <hr class="hidden-xs hidden-sm"> -->
-            <p class="hidden-xs hidden-sm"><a class="btn btn-default btn-block btn-lg" href="#" role="button">Conviertete en conductor</a></p>
+            <p class="hidden-xs hidden-sm"><a class="btn btn-default btn-lg" href="#ventana3" data-toggle="modal" role="button">Conviértete en conductor</a></p>
             <!-- vista mobil -->
             <h2 class="hidden-md hidden-lg">Comienza a viajar en LabCar</h2>
             <p class="hidden-md hidden-lg"><a class="btn btn-default btn-lg" href="#" role="button">Descarga la App</a></p>
           </div>
         </div>
+
+        <!-- SEGUNDO MODAL REGISTRATE -->
+        <div class="modal fade" id="ventana2" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button class="btn btn-lg btn-block style-btn-form-two" type="button">Ya tienes una cuenta?</button>
+              </div>
+              <div class="modal-body row">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label class="sr-only">Nombre</label>
+                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only">Appellido</label>
+                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Apellido">
+                  </div>
+                </form>
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Correo Electronico">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-10">
+                      <input placeholder="Telefono">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input placeholder="Contraseña">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input placeholder="Ciudad">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input placeholder="Código (opcional)">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <div class="dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <p>Como te enteraste de nosotros</p>
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Publicidad</a></li>
+                            <li><a href="#">Amigos o cononocidos</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info btn-block">Enviar</button>
+                </div>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
         <!-- vista desktop de la segunda sección con un media object -->
         <div class="row background-two">
@@ -55,11 +164,16 @@
             <div class="row  style-border-row">
               <div class="media">
                 <div class="media-left media-middle ">
+                    <!-- vista mobile de la segunda sección con un media object -->
                     <h2 class="hidden-md hidden-lg cellphone">La nueva app</h2>
+                    <!-- vista desktop de la segunda sección con un media object -->
                     <img class="media-object hidden-xs hidden-sm" src="assets/images/iPhone6Plus.png" alt="...">
+                    <!-- vista mobile de la segunda sección con un media object -->
                     <img class="media-object hidden-md hidden-lg cellphone" src="assets/images/iPhone6Plus.png" alt="...">
+                    <!-- vista mobile de la segunda sección con un media object -->
                     <p class="hidden-md hidden-lg cellphone"><strong>Llega a tu destino más rápido</strong></p>
                 </div>
+                <!-- vista desktop de la segunda sección con un media object -->
                 <div class="media-body paragraph hidden-xs hidden-sm">
                   <h3 class="hidden-xs hidden-sm"><strong>Descarga la nueva app</strong></h3>
                   <p class="hidden-xs hidden-sm">La version actualizada de labCar esta llena de funciones para llegar a donde quieras aún más fácil y rápido.</p>
@@ -70,43 +184,168 @@
           </div>
         </div>
 
-          <!-- vista desktop-->
+          <!-- vista desktop tercer seccion-->
         <div class="row background-three">
-          <div class="row ">
-            <div  class="jumbotron col-md-5 col-md-push-7 style-jumbotron-desktop-two">
-              <p>Conduce cuando quieras!</p>
-              <p>La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
-              <p><a class="btn btn-primary btn-lg" href="#" role="button">Convierte en conductor</a></p>
-            </div>
-          </div>
-        </div>
-
-          <!-- vista desktop-->
-        <div class="row background-two">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-6 ">
-                <h3>Tarifas</h3>
-                <p>Consulta las tarifas aqui</p>
-                <form>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su punto de partida">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su destino">
-                  </div>
-                  <button type="submit" class="btn btn-default">¡Traza la ruta!</button>
-                </form>
-                <div class="col-md-6">
-                  <img class="img-responsive" src="assets/images/mapa.gif" alt="">                
-                </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <div  class="jumbotron col-md-4 style-jumbotron-desktop-two">
+                <p class="margin-top-jumbotron hidden-xs hidden-sm size-font-three-section"><strong>Conduce cuando quieras!</strong></p>
+                <p class="hidden-xs hidden-sm size-font-three-section">La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
+                <p><a class="btn btn-default btn-lg color-boton hidden-xs hidden-sm" href="#" role="button">Conviértete en conductor</a></p>
+                <!-- vista mobile tercer seccion -->
+                <p class="margin-top-jumbotron-three mobile-section-three hidden-md hidden-lg"><strong>Conduce cuando quieras!</strong></p>
+                <p class="hidden-md hidden-lg mobile-section-three">La labCar es una opcion flexible para alcanzar tus metas financieras.</p>
+                <p><a class="btn btn-default btn-lg color-boton hidden-md hidden-lg mobile-section-three-boton" href="#ventana3" data-toggle="modal" role="button">Conviértete en conductor</a></p>
               </div>
             </div>
           </div>
         </div>
+        <!-- TERCER MODAL CONVIERTETE EN CONDUCTOR -->
+        <div class="modal fade" id="ventana3" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body row">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <div class="dropdown">
+                      <p>¿Tienes carro de cuatro puertas?</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        si
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">si</a></li>
+                        <li><a href="#">no</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="dropdown">
+                      <p>¿Que marca de carro tienes?</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Elige la marca de carro
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">nissan</a></li>
+                        <li><a href="#">Toyota</a></li>
+                        <li><a href="#">Honda</a></li>
+                        <li><a href="#">Hundai</a></li>
+                        <li><a href="#">Ford</a></li>
+                        <li><a href="#">Chysler</a></li>
+                      </ul>
+                      <p>No ves el modelo de tu automovil envia un correo a <span>sociosmvd@uber.com </span></p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="dropdown">
+                      <p>Modelo</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Modelo 1
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">modelo 1</a></li>
+                        <li><a href="#">modelo 2</a></li>
+                        <li><a href="#">modelo 3</a></li>
+                        <li><a href="#">modelo 4</a></li>
+                        <li><a href="#">modelo 5</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="dropdown">
+                      <p>Año</p>
+                      <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Año
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="#">2000</a></li>
+                        <li><a href="#">2001</a></li>
+                        <li><a href="#">2002</a></li>
+                        <li><a href="#">2003</a></li>
+                        <li><a href="#">2004</a></li>
+                        <li><a href="#">2005</a></li>
+                        <li><a href="#">2006</a></li>
+                        <li><a href="#">2007</a></li>
+                        <li><a href="#">2008</a></li>
+                        <li><a href="#">2009</a></li>
+                        <li><a href="#">2010</a></li>
+                        <li><a href="#">2011</a></li>
+                        <li><a href="#">2012</a></li>
+                        <li><a href="#">2013</a></li>
+                        <li><a href="#">2014</a></li>
+                        <li><a href="#">2015</a></li>
+                        <li><a href="#">2016</a></li>
+                        <li><a href="#">2017</a></li>
+                        <li><a href="#">2018</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <p>Numero de matricula</p>
+                    <div class="">
+                      <input placeholder="Numero de matricula">
+                      <p>El numero de matricula ayuda a los clientes a identificar tu vehiculo</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
           <!-- vista desktop-->
-        <div class="row background-four">
+        <div class="row background-two hidden-xs hidden-sm">
+          <div class="row col-md-10 col-md-offset-1">
+            <div class="col-md-5 hidden-xs hidden-sm form">
+              <h3>Tarifas</h3>
+              <p>Consulta las tarifas aqui</p>
+              <form>
+                <div class="form-group">
+                  <img class="img-responsive" src="assets/images/shape.png" alt="">
+                  <br>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su punto de partida">
+                </div>
+                <div class="form-group">
+                  <img class="img-responsive" src="assets/images/shape2.png" alt="">
+                  <br>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su destino">
+                </div>
+                <button type="submit" class="btn btn-default btn-lg button-map">¡Traza la ruta!</button>
+              </form>
+            </div>
+            <img class="img-responsive map col-md-5 hidden-xs hidden-sm" src="assets/images/mapa.gif" alt="">
+          </div>
+        </div>
+        <!-- vista mobile-->
+        <div class="row background-two hidden-md hidden-lg">
+          <div class="row col-md-10 col-md-offset-1">
+            <div class="col-xs-7 hidden-md hidden-lg form">
+              <h3 class="mobile-section-four">Tarifas</h3>
+              <p class="mobile-section-four">Consulta las tarifas aqui</p>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control mobile-section-four" id="exampleInputEmail1" placeholder="Insugentes CDMX">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control mobile-section-four" id="exampleInputEmail1" placeholder="Carolina Ciudad de los Deportes CDMX">
+                </div>
+                <button type="submit" class="btn btn-default btn-lg button-map mobile-section-boton-four">¡Traza la ruta!</button>
+              </form>
+            </div>
+            <img class="img-responsive border-map col-xs-5 hidden-md hidden-lg size-map" src="assets/images/mapa.gif" alt="">
+          </div>
+        </div>
+
+          <!-- vista desktop-->
+        <div class="row background-four hidden-xs hidden-sm">
           <div class="row col-md-push-1 col-md-11">
             <img id="last_logo" src="assets/images/logoBlanco.png" class="img-responsive" alt="Responsive image">
           </div>
@@ -152,15 +391,37 @@
           </div>
         </div>
 
-
-
-
-
-
+        <!-- vista mobile-->
+        <div class="row background-four hidden-md hidden-lg">
+          <div class="row">
+            <img id="last_logo_mobile" src="assets/images/logoBlanco.png" class="img-responsive" alt="Responsive image">
+          </div>
+          <div class="row col-sm-push-1 col-sm-10 border-top-bottom">
+            <div class="row col-sm-2">
+              <ul class="nav nav-pills nav-stacked">
+                <li role="presentation"><a class="paragraph" href="#">Viaja</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Conduce</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Ciudades</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Ciudades</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Entregas</a></li>
+                <li role="presentation"><a class="paragraph" href="#">¿Como funciona?</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Paises</a></li>
+                <li role="presentation"><a class="paragraph" href="#">Seguridad</a></li>
+              </ul>
+              <div class="col-sm-2 col-sm-push-5">
+                <i class="fa fa-facebook color-icon-mobile" aria-hidden="true"></i>
+                <i class="fa fa-twitter color-icon-mobile" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square  color-icon-mobile" aria-hidden="true"></i>
+                <i class="fa fa-apple  color-icon-mobile" aria-hidden="true"></i>
+                <i class="fa fa-play color-icon-mobile" aria-hidden="true"></i>
+              </div>
+            </div>
+          <div class="row col-sm-push-2 col-sm-10">
+            <i id="footer_mobile" class="fa fa-copyright" aria-hidden="true">2017 LabCar technologies Inc.</i>
+          </div>
+        </div>
+      </div>
     </section>
-
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
